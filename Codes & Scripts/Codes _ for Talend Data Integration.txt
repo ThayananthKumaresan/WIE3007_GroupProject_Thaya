@@ -1,0 +1,5 @@
+TalendDate.parseDate("yyyy-MM-dd", 
+    row1.arrival_year + "-" + 
+    String.format("%02d", Integer.parseInt(row1.arrival_month)) + "-" + 
+    String.format("%02d", Integer.parseInt(row1.arrival_date))
+)
