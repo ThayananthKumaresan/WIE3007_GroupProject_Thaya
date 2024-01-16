@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_n1dpwLQwEe6WBbNSBUL9kA" name="Hotel_Data" dataPackage="_n1fe8LQwEe6WBbNSBUL9kA" Server="Localhost 127.0.0.1" FilePath="C:/users/dell/Downloads/hotel dataset/Hotel Reservations.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_n1fe8LQwEe6WBbNSBUL9kA" name="default" dataManager="_n1dpwLQwEe6WBbNSBUL9kA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_n1gGALQwEe6WBbNSBUL9kA" id="_QyPlwLQwEe6WBbNSBUL9kA" label="hotel_metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGAbQwEe6WBbNSBUL9kA" label="Booking_ID" length="8" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGArQwEe6WBbNSBUL9kA" label="no_of_adults" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGA7QwEe6WBbNSBUL9kA" label="no_of_children" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGBLQwEe6WBbNSBUL9kA" label="no_of_weekend_nights" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGBbQwEe6WBbNSBUL9kA" label="no_of_week_nights" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGBrQwEe6WBbNSBUL9kA" label="type_of_meal_plan" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGB7QwEe6WBbNSBUL9kA" label="required_car_parking_space" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGCLQwEe6WBbNSBUL9kA" label="room_type_reserved" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGCbQwEe6WBbNSBUL9kA" label="lead_time" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGCrQwEe6WBbNSBUL9kA" label="arrival_year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGC7QwEe6WBbNSBUL9kA" label="arrival_month" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGDLQwEe6WBbNSBUL9kA" label="arrival_date" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGDbQwEe6WBbNSBUL9kA" label="market_segment_type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGDrQwEe6WBbNSBUL9kA" label="repeated_guest" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGD7QwEe6WBbNSBUL9kA" label="no_of_previous_cancellations" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGELQwEe6WBbNSBUL9kA" label="no_of_previous_bookings_not_canceled" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGEbQwEe6WBbNSBUL9kA" label="avg_price_per_room" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGErQwEe6WBbNSBUL9kA" label="no_of_special_requests" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n1gGE7QwEe6WBbNSBUL9kA" label="booking_status" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

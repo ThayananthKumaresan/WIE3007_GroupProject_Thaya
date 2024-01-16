@@ -1,0 +1,16 @@
+[ {
+  "baseItem" : {
+    "id" : "_vp8IILQvEe6WBbNSBUL9kA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_n1RcgLQwEe6WBbNSBUL9kA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n1RcgLQwEe6WBbNSBUL9kA - hotel_metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
