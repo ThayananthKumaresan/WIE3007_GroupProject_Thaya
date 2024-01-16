@@ -15,6 +15,7 @@ This repository contains a comprehensive analysis of a hotel booking dataset, ai
 - **SAS Enterprise Miner:** Utilized for to apply SEMMA methodlogy.
 - **Talend Open Studio for Data Integration:** Used for extracting and loading data, as well as performing essential data preprocessing tasks which is concatenate three sperated date columns into one.
 - **Talend Data Preparation:** Applied for feature engineering, including the creation of new features like `length_of_stay` and `total_guests`, as well as encoding categorical variables and other cleaning tasks as well
+- **Knime:** Utilized to DBSCAN clustering
 
 ## Project Structure
 
